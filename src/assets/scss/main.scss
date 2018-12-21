@@ -1,8 +1,8 @@
-@import "./fontawesome/scss/fontawesome.scss";
-@import "./fontawesome/scss/solid.scss";
-@import "./fontawesome/scss/brands.scss";
-
 @import './variables';
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
 
 .user {
   @extend %fa-icon;
@@ -21,3 +21,6 @@
     content: fa-content($fa-var-twitter);
   }
 }
+
+
+

@@ -1,16 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import ExampleComponent from './components/Example.jsx'
+
+import './assets/scss/main.scss'
+
 class App extends React.Component {
 	render() {
-		return (
-			<button
-				className="prettier-class"
-				id="prettier-id"
-				onClick={this.handleClick}>
-				Click Here
-			</button>
-		)
+		return <ExampleComponent />
 	}
 }
 
