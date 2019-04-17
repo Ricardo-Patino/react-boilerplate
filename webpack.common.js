@@ -10,6 +10,9 @@ module.exports = {
 		filename: '[name].bundle.js',
 		path: path.resolve(__dirname, 'dist'),
 	},
+	resolve: {
+		extensions: ['.js', '.jsx'],
+	},
 	module: {
 		rules: [
 			{
@@ -46,7 +49,7 @@ module.exports = {
 		],
 	},
 	plugins: [
-		new CleanWebpackPlugin(['dist']),
+		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
 			title: 'Production',
 			template: './src/index.html',

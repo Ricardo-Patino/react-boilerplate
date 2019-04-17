@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import ExampleComponent from './components/Example.jsx'
+import ExampleComponent from './components/Example'
 
 import './assets/scss/main.scss'
 
